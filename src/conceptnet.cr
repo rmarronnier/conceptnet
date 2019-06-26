@@ -14,7 +14,7 @@ module ConceptNet
     end
 
     def get_node(node)
-      response = HTTP::Client.get @address + "/c/" + @language + "/" + node
+      response = HTTP::Client.get @address + "/c/" + @language + "/" + node.not_nil!
       obj = JSON.parse(response.body)
     end
   
