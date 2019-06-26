@@ -18,9 +18,11 @@ TODO: Write a description here
 
 ```crystal
 require "conceptnet"
-```
 
-TODO: Write usage instructions here
+concept = ConceptNet::Client.new("fr")
+
+puts concept.get_node("eau")
+```
 
 ## Development
 

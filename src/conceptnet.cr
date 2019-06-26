@@ -20,7 +20,7 @@ module ConceptNet
 
     # def query(startURI, endURI, rel, node, other, sources)
     #   response = HTTP::Client.get @address + startURI + endURI + "/" + node
-    #   obj = JSON.parse(response.body)
+    #   obj = JSON.parse(response.body)<
     # end
 
     # def related
