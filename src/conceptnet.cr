@@ -3,9 +3,9 @@ require "json"
 
 module ConceptNet
   class Client
-    getter address : String?
+    getter address : String!
 
-    property language : String?
+    property language : String!
 
 
     def initialize(address = "https://api.conceptnet.io", language = "en")
